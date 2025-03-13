@@ -33,8 +33,8 @@
 
 ## Results 🏁
 ### pre_contrast 序列分割
-![pre_contrast](../images/pre_contrast.png)
+![pre_contrast](./images/pre.png)
 
 ### post_contrast 序列分割
-![post_contrast](../images/post_contrast.png)
+![post_contrast](./images/post.png)
 
