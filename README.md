@@ -25,6 +25,7 @@
     1.  `1_rename_dcms.py` 重新按照 `0、1、2、... ` 的顺序重命名 dcms 文件；
     2. `2_dicoms_to_frames.py` 将 dcms 转换为 jpgs。
 3. **Step 3**: 运行 `3_seg_by_click_final_version.py`，点击待分割区域，保存分割结果；
+4. **(Optional Tools)** ⚙️ 其它的工具在 utils 文件夹里，比如：HU 分割、根据 mask 获得 dicom 对应的像素之类的。
 
 **注意，所有的路径、参数，都在config.py里，按需更改**
 
@@ -32,8 +33,8 @@
 
 ## Results 🏁
 ### pre_contrast 序列分割
-![pre_contrast](images/pre_contrast.png)
+![pre_contrast](./images/pre_contrast.png)
 
 ### post_contrast 序列分割
-![post_contrast](images/post_contrast.png)
+![post_contrast](./images/post_contrast.png)
 
